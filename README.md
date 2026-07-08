@@ -1,21 +1,44 @@
-# Next.js template
+## Future Improvements
 
-This is a Next.js template with shadcn/ui.
+Once the core project is completed, the following improvements can be implemented to make the project more production-ready:
 
-## Adding components
+### 1. Use Advanced Technologies
 
-To add components to your app, run the following command:
+Integrate advanced technologies such as **Redis** to improve performance, caching, session handling, and response time.
 
-```bash
-npx shadcn@latest add button
-```
+Possible use cases:
 
-This will place the ui components in the `components` directory.
+- Cache frequently requested data
+- Store temporary session data
+- Reduce database load
+- Improve API response speed
 
-## Using components
+### 2. Perform Load Testing
 
-To use the components in your app, import them as follows:
+Add load testing to check how the application performs under high traffic.
 
-```tsx
-import { Button } from "@/components/ui/button";
-```
+This will help identify:
+
+- API performance bottlenecks
+- Slow database queries
+- Memory or CPU usage issues
+- Maximum number of users the system can handle
+
+Tools that can be used:
+
+- Apache JMeter
+- k6
+- Artillery
+
+### 3. Add Test Results to GitHub Repository
+
+After testing the application, add the test results and performance reports to the GitHub repository.
+
+This can include:
+
+- Load testing results
+- Screenshots of test reports
+- API response time benchmarks
+- Before-and-after performance improvements
+
+The goal is to make the project more credible and show that it has been tested for real-world usage.
